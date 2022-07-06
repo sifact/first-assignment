@@ -170,7 +170,7 @@ section.news div div.half-width {
   background-color: #ffffff;
   margin-right: 2rem;
   text-align: center;
-
+  border-radius: 5px;
   flex: 1;
   height: 600px;
 }
