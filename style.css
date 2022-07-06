@@ -1,0 +1,245 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;1,100;1,300&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Raleway:ital,wght@0,300;0,400;0,500;1,600;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+
+  color: rgb(91, 91, 91);
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 1440px;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.section-header {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+p {
+  font-weight: 500;
+}
+/* top-banner */
+section.top-banner {
+  background: linear-gradient(135deg, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.2)),
+    url("./images/donation7.jpg");
+  height: 550px;
+  background-size: cover;
+
+  margin-bottom: 6rem;
+}
+
+section.top-banner div {
+  text-align: center;
+  width: 50%;
+}
+section.top-banner h1 {
+  color: azure;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+section.top-banner p {
+  color: white;
+  text-align: center;
+  line-height: 1.6;
+
+  margin: 2rem;
+}
+.anchor-btn {
+  text-decoration: none;
+  background: linear-gradient(135deg, orange, tomato);
+  padding: 10px 25px;
+  border-radius: 4px;
+  color: white;
+  font-weight: 700;
+}
+/* dinate-today */
+section.donate-today {
+  text-align: center;
+}
+.highlight {
+  background: linear-gradient(135deg, orange, tomato);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+section.donate-today p {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+}
+
+section.donate-today div div {
+  width: 80px;
+  height: 70px;
+  /* text-align: center; */
+  color: rgb(91, 91, 91);
+  background-color: #f0f0f0;
+  margin-right: 1rem;
+  padding-top: 1.7rem;
+  font-weight: 700;
+  border: 2px solid transparent;
+  line-height: 0.8;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  /* border: none; */
+}
+section.donate-today div div:hover {
+  color: orange;
+  border: 2px solid orange;
+  background-color: rgb(250, 234, 234);
+  border-radius: 5px;
+}
+section.donate-today input {
+  padding: 0.5rem;
+  border: none;
+  border-bottom: 1px solid rgb(237, 236, 236);
+  text-align: center;
+  outline: none;
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 15px;
+  display: block;
+}
+
+/* donate-plaln */
+section.donate-plan {
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+  margin-top: 4rem;
+  background: #f0f0f0;
+  /* height: 0px; */
+  text-align: center;
+}
+section.donate-plan .heading-p {
+  padding-right: 15rem;
+  padding-left: 15rem;
+}
+section.donate-plan p {
+  margin: 1rem 0 5rem 0;
+}
+section.donate-plan .card-wrapper div {
+  background-color: #ffffff;
+  margin-right: 2rem;
+  flex: 1;
+  padding: 1.5rem;
+  border-radius: 5px;
+  height: 201px;
+  position: relative;
+}
+section.donate-plan .card-wrapper img {
+  position: absolute;
+  top: -30px;
+  left: 40%;
+}
+section.donate-plan .card-wrapper div h2 {
+  margin-top: 2rem;
+}
+
+/* news */
+section.news {
+  background-color: #f0f0f0;
+  text-align: center;
+  margin-bottom: 0;
+}
+section.news div {
+  margin-top: 1rem;
+  padding-bottom: 4rem;
+  height: 100%;
+}
+section.news div div.half-width {
+  background-color: #ffffff;
+  margin-right: 2rem;
+  text-align: center;
+
+  flex: 1;
+  height: 600px;
+}
+section.news div div img {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+section.news div div p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+section.news div div p.hire {
+  height: 76px;
+}
+section.news div div .content {
+  padding: 2rem;
+}
+
+/* updates */
+section.updates {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background: #eebf00;
+  margin-top: 0;
+}
+section.updates h1 {
+  color: #232b38;
+}
+section.updates p {
+  width: 35%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  color: #232b38;
+  text-align: center;
+}
+section.updates div {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ffffff;
+
+  border-radius: 4px;
+  width: 30%;
+}
+section.updates div input {
+  border: none;
+  outline: none;
+  padding: 0 1rem;
+  font-size: 1rem;
+}
+section.updates div .anchor-btn {
+  border-radius: 2px;
+}
+/* footer */
+footer {
+  font-family: "Lobster", sans-serif;
+  height: 150px;
+  background-color: #2d333f;
+  text-align: center;
+  padding-top: 2.5rem;
+}
+
+footer p {
+  margin-top: 1rem;
+  color: white;
+}
